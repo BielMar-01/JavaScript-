@@ -21,3 +21,5 @@ console.log("O valor da temperatura é: " + temperatura);
 
 temperatura = null;
 console.log("O valor da temperatura é: " + temperatura);
+
+Teste
