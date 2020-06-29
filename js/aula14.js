@@ -23,3 +23,4 @@ console.log( aluno.nome_completo() );
 console.log('A idade é: ' + aluno.ver_idade() );
 
 console.log("---------------------------------");
+   
