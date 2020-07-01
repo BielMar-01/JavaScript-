@@ -115,7 +115,7 @@ function criar_tabela(person) {
   return tabelaHTML;
 }
 
-var tabela = criar_tabela(pessoa);
+var tabela = criar_tabela(pessoa); 
 
 document.getElementById("tabela").innerHTML = tabela;
 
