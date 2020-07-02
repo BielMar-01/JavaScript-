@@ -20,7 +20,7 @@ document.getElementById("botao_cor02").onclick = function() {
 // USando variavel e o nome dela "botao"
 var botao01 = document.getElementById("botao_cor03");
 
-botao01.onclick = function() {
+botao01.onclick = function() { 
   botao01.style['background-color'] = "blue";
   botao01.style.transform = "translateX(100px)";
 };
