@@ -55,12 +55,12 @@ var list_element = document.getElementById("filhos");
 for (var a = 0 ; a < funcionarios.length ; a++) {
   if (funcionarios[a].filhos) {
       
-      var lista_filhos = funcionarios[a].filhos;
+    var lista_filhos = funcionarios[a].filhos;
       
-      for (var b = 0 ; b < lista_filhos.length ; b++) {
-          list_element.innerHTML += '<li>' + lista_filhos[b] + ' - Filho(a) de ' + funcionarios[a].nome + '</li&gt>';
-
-      }
+    for (var b = 0 ; b < lista_filhos.length ; b++) {
+        list_element.innerHTML += '<li>' + lista_filhos[b] + ' - Filho(a) de ' + funcionarios[a].nome + '</li&gt>';
+ 
+    }
   }
 }
 
