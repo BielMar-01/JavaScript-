@@ -4,7 +4,7 @@
 /* 01 - Switch */
 console.log("Funcionamento do Switch: ");
 
- function valor_pedagio (categoria) {
+ function valor_pedagio (categoria) { 
 
   switch(categoria) {
 
